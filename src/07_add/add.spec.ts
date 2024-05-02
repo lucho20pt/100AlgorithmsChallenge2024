@@ -1,6 +1,6 @@
 import { add } from './add'
 
-xdescribe(add.name, () => {
+describe(add.name, () => {
   it('test 1', () => {
     // act
     const result = add(1, 2)
