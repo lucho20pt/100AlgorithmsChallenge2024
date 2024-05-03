@@ -1,6 +1,6 @@
 import { almostIncreasingSequence } from './almostIncreasingSequence'
 
-xdescribe(almostIncreasingSequence.name, () => {
+describe(almostIncreasingSequence.name, () => {
   it('Test 1', () => {
     // arrange
     const data = [1, 3, 2, 1]
@@ -53,6 +53,6 @@ xdescribe(almostIncreasingSequence.name, () => {
     const response = almostIncreasingSequence(data)
 
     // assert
-    expect(response).toBe(true)
+    expect(response).toBe(false)
   })
 })
