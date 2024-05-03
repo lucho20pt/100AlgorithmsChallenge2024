@@ -4,17 +4,13 @@ export function alphabetSubsequence(s: string): boolean {
   )
   const arr = s.split('')
   let index = null
-  let arrIndex: number[] = []
   let lastIndex = -1
 
   for (const letter of arr) {
     index = alphabet.findIndex((el) => el.includes(letter))
-    arrIndex.push(index)
-  }
 
-  for (const value of arrIndex) {
-    if (value > lastIndex) {
-      lastIndex = value
+    if (index > lastIndex) {
+      lastIndex = index
     } else {
       return false
     }
