@@ -1,6 +1,6 @@
 import { arrayMaximalAdjacentDifference } from './arrayMaximalAdjacentDifference';
 
-xdescribe(arrayMaximalAdjacentDifference.name, () => {
+describe(arrayMaximalAdjacentDifference.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [2, 4, 1, 0];
