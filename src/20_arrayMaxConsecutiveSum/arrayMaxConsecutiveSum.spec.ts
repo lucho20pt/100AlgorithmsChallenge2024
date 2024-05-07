@@ -1,6 +1,6 @@
 import { arrayMaxConsecutiveSum } from './arrayMaxConsecutiveSum'
 
-xdescribe(arrayMaxConsecutiveSum.name, () => {
+describe(arrayMaxConsecutiveSum.name, () => {
   it('Test 1', () => {
     // arrange
     const data = [2, 3, 5, 1, 6]
