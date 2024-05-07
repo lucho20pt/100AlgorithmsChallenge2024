@@ -1,6 +1,6 @@
 import { arrayConversion } from './arrayConversion'
 
-xdescribe(arrayConversion.name, () => {
+describe(arrayConversion.name, () => {
   it('Test 1', () => {
     // arrange
     const data = [1, 2, 3, 4, 5, 6, 7, 8]
