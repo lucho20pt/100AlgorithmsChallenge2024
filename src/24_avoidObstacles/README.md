@@ -1,6 +1,7 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5)
+
 ---
 
 You are given an array of integers representing coordinates of obstacles situated on a straight line.
@@ -15,8 +16,9 @@ For inputArray = [5, 3, 6, 7, 9], the output should be
 avoidObstacles(inputArray) = 4.
 
 **Hints**
--   sort()
--   every()
+
+- sort()
+- every()
 
 **Input/Output**
 
@@ -25,7 +27,7 @@ avoidObstacles(inputArray) = 4.
 
 Non-empty array of positive integers.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 2 ≤ inputArray.length ≤ 10,
 
