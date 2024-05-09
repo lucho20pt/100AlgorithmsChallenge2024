@@ -1,6 +1,6 @@
 import { checkPalindrome } from './checkPalindrome';
 
-xdescribe(checkPalindrome.name, () => {
+describe(checkPalindrome.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 'aabaa';
