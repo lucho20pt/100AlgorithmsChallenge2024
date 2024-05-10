@@ -1,6 +1,6 @@
 import { commonCharacterCount } from './commonCharacterCount';
 
-xdescribe(commonCharacterCount.name, () => {
+describe(commonCharacterCount.name, () => {
     it('Test 1', () => {
         // arrange
         const s1 = 'aabcc';
