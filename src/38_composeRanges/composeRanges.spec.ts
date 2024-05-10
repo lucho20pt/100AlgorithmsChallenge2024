@@ -1,6 +1,6 @@
 import { composeRanges } from './composeRanges';
 
-xdescribe(composeRanges.name, () => {
+describe(composeRanges.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [-1, 0, 1, 2, 6, 7, 9];
