@@ -1,6 +1,6 @@
 import { convertString } from './convertString';
 
-xdescribe(convertString.name, () => {
+describe(convertString.name, () => {
     it('Test 1', () => {
         // arrange
         const s = 'ceoydefthf5iyg5h5yts';
