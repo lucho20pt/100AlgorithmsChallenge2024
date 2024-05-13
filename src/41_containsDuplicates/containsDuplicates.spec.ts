@@ -1,6 +1,6 @@
 import { containsDuplicates } from './containsDuplicates';
 
-xdescribe(containsDuplicates.name, () => {
+describe(containsDuplicates.name, () => {
     it('Test 1', () => {
         // arrange
         const a = [1, 2, 3, 1];
