@@ -1,6 +1,6 @@
 import { containsCloseNums } from './containsCloseNums';
 
-xdescribe(containsCloseNums.name, () => {
+describe(containsCloseNums.name, () => {
     it('Test 1', () => {
         // arrange
         const nums = [0, 1, 2, 3, 5, 2];
