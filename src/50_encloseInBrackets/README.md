@@ -1,7 +1,9 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz)
+
 ---
+
 Given a string, enclose it in round brackets.
 
 **Example**
@@ -15,7 +17,7 @@ encloseInBrackets(inputString) = "(abacaba)".
 
 - **[input] string inputString**
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 0 ≤ inputString.length ≤ 10
 
