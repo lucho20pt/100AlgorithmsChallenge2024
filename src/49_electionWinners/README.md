@@ -1,7 +1,9 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
 
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/code-arcade/well-of-integration/8RiRRM3yvbuAd3MNg)
+
 ---
+
 Elections are in progress!
 
 Given an array of the numbers of votes given to each of the candidates so far, and an integer k equal to the number of voters who haven't cast their vote yet, find the number of candidates who still have a chance to win the election.
@@ -24,25 +26,26 @@ electionsWinners(votes, k) = 2.
 Thus, only 2 candidates can win (the second and the third), which is the answer.
 
 **Hints**
--   sort()
--   Math.max()
+
+- sort()
+- Math.max()
 
 **Input/Output**
 
 - **[execution time limit] 5 seconds (ts)**
 
 - **[input] array.integer votes**
-A non-empty array of non-negative integers. Its ith element denotes the number of votes cast for the ith candidate.
+  A non-empty array of non-negative integers. Its ith element denotes the number of votes cast for the ith candidate.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 4 ≤ votes.length ≤ 105,
 0 ≤ votes[i] ≤ 104.
 
 - **[input] integer k**
-The number of voters who haven't cast their vote yet.
+  The number of voters who haven't cast their vote yet.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 0 ≤ k ≤ 105.
 
 - **[output] integer**
