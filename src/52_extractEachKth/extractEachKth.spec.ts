@@ -1,6 +1,6 @@
 import { extractEachKth } from './extractEachKth';
 
-xdescribe(extractEachKth.name, () => {
+describe(extractEachKth.name, () => {
     it('Test 1', () => {
         // arrange
         const inputArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
