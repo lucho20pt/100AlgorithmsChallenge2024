@@ -1,6 +1,6 @@
 import { firstDigit } from './firstDigit';
 
-xdescribe(firstDigit.name, () => {
+describe(firstDigit.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'var_1__Int';
