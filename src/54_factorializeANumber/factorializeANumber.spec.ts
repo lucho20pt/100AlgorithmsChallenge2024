@@ -1,6 +1,6 @@
 import { factorializeANumber } from './factorializeANumber';
 
-xdescribe(factorializeANumber.name, () => {
+describe(factorializeANumber.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 5;
