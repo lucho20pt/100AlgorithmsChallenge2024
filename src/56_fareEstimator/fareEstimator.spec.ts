@@ -1,6 +1,6 @@
 import { fareEstimator } from './fareEstimator';
 
-xdescribe(fareEstimator.name, () => {
+describe(fareEstimator.name, () => {
     it('Test 1', () => {
         // arrange
         const ride_time = 30;
