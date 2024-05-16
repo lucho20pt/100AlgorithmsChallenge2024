@@ -1,6 +1,6 @@
 import { findEmailDomain } from './findEmailDomain';
 
-xdescribe(findEmailDomain.name, () => {
+describe(findEmailDomain.name, () => {
     it('Test 1', () => {
         // arrange
         const address = 'prettyandsimple@example.com';
