@@ -1,6 +1,6 @@
 import { extractMatrixColumn } from './extractMatrixColumn';
 
-xdescribe(extractMatrixColumn.name, () => {
+describe(extractMatrixColumn.name, () => {
     it('Test 1', () => {
         // arrange
         const matrix = [
