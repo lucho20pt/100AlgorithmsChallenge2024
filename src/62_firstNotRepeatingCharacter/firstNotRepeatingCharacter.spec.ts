@@ -1,6 +1,6 @@
 import { firstNotRepeatingCharacter } from './firstNotRepeatingCharacter';
 
-xdescribe(firstNotRepeatingCharacter.name, () => {
+describe(firstNotRepeatingCharacter.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 'abacabad';
