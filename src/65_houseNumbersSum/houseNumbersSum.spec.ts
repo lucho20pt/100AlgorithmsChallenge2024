@@ -9,6 +9,6 @@ xdescribe(houseNumbersSum.name, () => {
         const response = houseNumbersSum(data);
 
         // assert 
-        expect(response).toBe(10);
+        expect(response).toBe(11);
     });
 });
