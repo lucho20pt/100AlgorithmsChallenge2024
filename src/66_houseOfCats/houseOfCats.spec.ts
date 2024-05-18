@@ -22,4 +22,15 @@ xdescribe(houseOfCats.name, () => {
         // assert 
         expect(response).toEqual([1]);
     });
+
+    it('Test 3', () => {
+        // arrange
+        const legs = 12;
+
+        // act
+        const response = houseOfCats(legs);
+
+        // assert 
+        expect(response).toEqual([2, 4, 6]);
+    });
 });
