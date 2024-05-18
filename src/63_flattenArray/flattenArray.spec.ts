@@ -1,6 +1,6 @@
 import { flattenArray } from './flattenArray';
 
-xdescribe(flattenArray.name, () => {
+describe(flattenArray.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [[["a"]], [["b"]]];
