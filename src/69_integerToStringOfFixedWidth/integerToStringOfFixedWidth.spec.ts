@@ -28,7 +28,7 @@ xdescribe(integerToStringOfFixedWidth.name, () => {
     it('Test 3', () => {
         // arrange
         const number = 1234;
-        const width = 4;
+        const width = 5;
 
         // act
         const response = integerToStringOfFixedWidth(number, width);
