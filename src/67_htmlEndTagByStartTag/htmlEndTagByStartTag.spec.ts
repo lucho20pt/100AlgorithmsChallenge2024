@@ -1,6 +1,6 @@
 import { htmlEndTagByStartTag } from './htmlEndTagByStartTag';
 
-xdescribe(htmlEndTagByStartTag.name, () => {
+describe(htmlEndTagByStartTag.name, () => {
     it('Test 1', () => {
         // arrange
         const startTag = "<button type='button' disabled>";
