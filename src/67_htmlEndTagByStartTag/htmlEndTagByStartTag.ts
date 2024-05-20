@@ -1,16 +1,11 @@
 export function htmlEndTagByStartTag(startTag: string): string {
-  let strArr = startTag.split(' ')
-  let index = 1
-  let endTag = ''
+  let tagName = startTag.split(' ')[0].slice(1)
 
-  if (strArr.length === 1) {
-    let first = strArr[0].slice(0, index) + '/' + strArr[0].slice(index)
-    endTag = first
-  } else {
-    let first = strArr[0].slice(0, index) + '/' + strArr[0].slice(index) + '>'
-    endTag = first
+  if (tagName.endsWith('>')) {
+    tagName = tagName.slice(0, -1)
   }
-  return endTag
+
+  return `</${tagName}>`
 }
 
 console.log(htmlEndTagByStartTag("<button type='button' disabled>"))
