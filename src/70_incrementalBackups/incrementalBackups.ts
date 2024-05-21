@@ -3,22 +3,19 @@ export function incrementalBackups(
   changes: number[][]
 ): number[] {
   //
-  let resArr: number[] = []
+  let fileSet: Set<number> = new Set()
 
   for (let i = 0; i < changes.length; i++) {
     const backupDate = changes[i][0]
     const file = changes[i][1]
 
     if (lastBackupTime < backupDate) {
-      resArr.push(file)
+      fileSet.add(file)
     }
   }
 
-  return resArr
-    .filter((value, index, arr) => {
-      return arr.indexOf(value) === index
-    })
-    .sort((a, b) => a - b)
+  return Array.from(fileSet).sort((a, b) => a - b)
+
 }
 
 console.log(
@@ -32,3 +29,27 @@ console.log(
     [461620208, 1]
   ])
 )
+
+// /* O(n log n) */
+// export function incrementalBackups(
+//   lastBackupTime: number,
+//   changes: number[][]
+// ): number[] {
+//   //
+//   let resArr: number[] = []
+
+//   for (let i = 0; i < changes.length; i++) {
+//     const backupDate = changes[i][0]
+//     const file = changes[i][1]
+
+//     if (lastBackupTime < backupDate) {
+//       resArr.push(file)
+//     }
+//   }
+
+//   return resArr
+//     .filter((value, index, arr) => {
+//       return arr.indexOf(value) === index
+//     })
+//     .sort((a, b) => a - b)
+// }
