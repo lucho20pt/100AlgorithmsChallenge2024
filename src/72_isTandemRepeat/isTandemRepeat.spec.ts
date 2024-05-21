@@ -1,6 +1,6 @@
 import { isTandemRepeat } from './isTandemRepeat';
 
-xdescribe(isTandemRepeat.name, () => {
+describe(isTandemRepeat.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'tandemtandem';
