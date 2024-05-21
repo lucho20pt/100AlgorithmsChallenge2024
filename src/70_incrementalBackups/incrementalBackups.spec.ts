@@ -1,6 +1,6 @@
 import { incrementalBackups } from './incrementalBackups';
 
-xdescribe(incrementalBackups.name, () => {
+describe(incrementalBackups.name, () => {
     it('Test 1', () => {
         // arrange
         const lastBackupTime = 461620205;
