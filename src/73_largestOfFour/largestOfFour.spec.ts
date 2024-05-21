@@ -1,6 +1,6 @@
 import { largestOfFour } from './largestOfFour';
 
-xdescribe(largestOfFour.name, () => {
+describe(largestOfFour.name, () => {
     it('Test 1', () => {
         // arrange
         const data = [
