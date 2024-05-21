@@ -1,6 +1,6 @@
 import { largestNumber } from './largestNumber';
 
-xdescribe(largestNumber.name, () => {
+describe(largestNumber.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 2;
@@ -10,5 +10,15 @@ xdescribe(largestNumber.name, () => {
 
         // assert 
         expect(response).toBe(99);
+    });
+    it('Test 2', () => {
+        // arrange
+        const data = 5;
+
+        // act
+        const response = largestNumber(data);
+
+        // assert 
+        expect(response).toBe(99999);
     });
 });
