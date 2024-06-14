@@ -1,6 +1,6 @@
 import { launchSequenceChecker } from './launchSequenceChecker';
 
-xdescribe(launchSequenceChecker.name, () => {
+describe(launchSequenceChecker.name, () => {
     it('Test 1', () => {
         // arrange
         const systemNames = ["stage_1", "stage_2", "dragon", "stage_1", "stage_2", "dragon"];
