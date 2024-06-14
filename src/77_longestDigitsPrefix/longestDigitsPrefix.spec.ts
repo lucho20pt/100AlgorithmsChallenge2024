@@ -1,6 +1,6 @@
 import { longestDigitsPrefix } from './longestDigitsPrefix';
 
-xdescribe(longestDigitsPrefix.name, () => {
+describe(longestDigitsPrefix.name, () => {
     it('Test 1', () => {
         // arrange
         const data = '123aa1';
