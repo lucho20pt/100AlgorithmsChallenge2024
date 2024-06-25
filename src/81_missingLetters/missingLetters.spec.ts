@@ -1,6 +1,6 @@
 import { missingLetters } from './missingLetters';
 
-xdescribe(missingLetters.name, () => {
+describe(missingLetters.name, () => {
     it('Test 1', () => {
         // arrange
         const data = "abce";
