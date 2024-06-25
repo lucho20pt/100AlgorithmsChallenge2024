@@ -1,6 +1,6 @@
 import { matrixElementsSum } from './matrixElementsSum';
 
-xdescribe(matrixElementsSum.name, () => {
+describe(matrixElementsSum.name, () => {
     it('Test 1', () => {
         // arrange
         const matrix = [
