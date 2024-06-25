@@ -1,6 +1,9 @@
 ### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
+
 ##### Algorithm Challenge Available At [CodeFights](https://codefights.com/arcade/intro/level-4/Xfeo7r9SBSpo3Wico)
+
 ---
+
 Given a string, find out if its characters can be rearranged to form a palindrome.
 
 **Example**
@@ -11,9 +14,9 @@ palindromeRearranging(inputString) = true.
 We can rearrange "aabb" to make "abba", which is a palindrome.
 
 **Hints**
--   split()
--   hasOwnProperty()
 
+- split()
+- hasOwnProperty()
 
 **Input/Output**
 
@@ -22,7 +25,7 @@ We can rearrange "aabb" to make "abba", which is a palindrome.
 
 A string consisting of lowercase English letters.
 
-*Guaranteed constraints:*
+_Guaranteed constraints:_
 
 1 ≤ inputString.length ≤ 50.
 

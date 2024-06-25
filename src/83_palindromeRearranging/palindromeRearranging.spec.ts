@@ -1,6 +1,6 @@
 import { palindromeRearranging } from './palindromeRearranging';
 
-xdescribe(palindromeRearranging.name, () => {
+describe(palindromeRearranging.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'aabb';
