@@ -1,6 +1,6 @@
 import { newNumeralSystem } from './newNumeralSystem';
 
-xdescribe(newNumeralSystem.name, () => {
+describe(newNumeralSystem.name, () => {
     it('Test 1', () => {
         // arrange
         const number = 'G';
