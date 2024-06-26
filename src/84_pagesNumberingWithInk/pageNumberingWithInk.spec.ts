@@ -1,6 +1,6 @@
 import { pagesNumberingWithInk } from './pagesNumberingWithInk';
 
-xdescribe(pagesNumberingWithInk.name, () => {
+describe(pagesNumberingWithInk.name, () => {
     it('Test 1', () => {
         // arrange
         const current = 21;
