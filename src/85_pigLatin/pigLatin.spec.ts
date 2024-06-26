@@ -1,6 +1,6 @@
 import { pigLatin } from './pigLatin';
 
-xdescribe(pigLatin.name, () => {
+describe(pigLatin.name, () => {
     it('Test 1', () => {
         // arrange
         const data = 'glove';
@@ -21,5 +21,16 @@ xdescribe(pigLatin.name, () => {
 
         // assert 
         expect(response).toBe('eightway');
+    });
+
+    it('Test 3', () => {
+        // arrange
+        const data = 'why';
+
+        // act
+        const response = pigLatin(data);
+
+        // assert 
+        expect(response).toBe('whyay');
     });
 });
