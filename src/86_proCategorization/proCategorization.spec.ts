@@ -1,6 +1,6 @@
 import { proCategorization } from './proCategorization';
 
-xdescribe(proCategorization.name, () => {
+describe(proCategorization.name, () => {
     it('Test 1', () => {
         // arrange
         const pros = ["Jack", "Leon", "Maria"];
