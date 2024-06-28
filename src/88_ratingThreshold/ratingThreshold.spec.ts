@@ -1,6 +1,6 @@
 import { ratingThreshold } from './ratingThreshold';
 
-xdescribe(ratingThreshold.name, () => {
+describe(ratingThreshold.name, () => {
     it('Test 1', () => {
         // arrange
         const threshHold = 3.5;
