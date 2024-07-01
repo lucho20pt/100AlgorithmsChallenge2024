@@ -1,6 +1,6 @@
 import { reflectString } from './reflectString';
 
-xdescribe(reflectString.name, () => {
+describe(reflectString.name, () => {
     it('Test 1', () => {
         // arrange
         const inputString = 'name';
